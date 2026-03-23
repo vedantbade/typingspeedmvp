@@ -10,6 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://typesprints.com"),
   title: "Free Typing Speed Test – Check Your WPM Online",
   description:
     "Test your typing speed online with our free 60-second typing test. Measure WPM, accuracy, and improve your typing skills instantly.",
