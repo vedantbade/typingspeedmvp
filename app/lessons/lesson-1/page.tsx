@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ArticleCTAs from "@/components/ArticleCTAs";
 
 export default function LessonsPage() {
     return (
@@ -189,6 +190,8 @@ export default function LessonsPage() {
                 <p className="font-medium text-emerald-600 dark:text-emerald-400">
                     Start slow. Stay consistent. Focus on accuracy. Speed will follow.
                 </p>
+
+                <ArticleCTAs />
 
                 <div className="mt-12 pt-8 border-t border-zinc-200 dark:border-zinc-700/60 flex justify-end">
                     <Link

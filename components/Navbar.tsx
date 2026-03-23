@@ -22,7 +22,7 @@ export default function Navbar() {
 
                 {/* Logo / Brand (Optional) */}
                 <div className="flex-shrink-0 font-bold text-lg text-emerald-600 dark:text-emerald-400 mr-8 hidden sm:block">
-                    TypeSprint
+                    TypeSprints
                 </div>
 
                 {/* Navigation Links */}

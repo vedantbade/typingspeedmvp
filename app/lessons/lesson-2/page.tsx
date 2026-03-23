@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ArticleCTAs from "@/components/ArticleCTAs";
 
 export default function Lesson2Page() {
     return (
@@ -191,6 +192,8 @@ export default function Lesson2Page() {
                 <p className="font-medium text-emerald-600 dark:text-emerald-400">
                     Sit straight. Keep your wrists relaxed. Position your screen correctly. Good posture is not just about comfort — it’s about building long-term typing efficiency.
                 </p>
+
+                <ArticleCTAs />
 
                 <div className="mt-12 pt-8 border-t border-zinc-200 dark:border-zinc-700/60 flex justify-between">
                     <Link

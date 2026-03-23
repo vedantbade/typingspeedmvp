@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ArticleCTAs from "@/components/ArticleCTAs";
 
 export default function IncreaseTypingSpeedPage() {
     return (
@@ -204,6 +205,8 @@ export default function IncreaseTypingSpeedPage() {
                 <p>
                     Start with small goals, track your progress, and keep moving forward.
                 </p>
+
+                <ArticleCTAs />
             </article>
         </main>
     );

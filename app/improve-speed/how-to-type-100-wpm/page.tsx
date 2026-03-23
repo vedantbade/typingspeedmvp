@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ArticleCTAs from "@/components/ArticleCTAs";
 
 export default function HowToType100WpmPage() {
     return (
@@ -220,6 +221,8 @@ export default function HowToType100WpmPage() {
                     <br /><br />
                     Speed is the result of discipline — not luck.
                 </p>
+
+                <ArticleCTAs />
             </article>
         </main>
     );

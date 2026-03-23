@@ -95,7 +95,7 @@ export default function CertificateModal({
         ctx.font = "600 14px Inter, system-ui, sans-serif";
         ctx.textAlign = "center";
         ctx.letterSpacing = "6px";
-        ctx.fillText("TYPESPRINT", W / 2, 80);
+        ctx.fillText("TYPESPRINTS", W / 2, 80);
         ctx.letterSpacing = "0px";
 
         // ---------- Title ----------
@@ -194,7 +194,7 @@ export default function CertificateModal({
         // ---------- Footer ----------
         ctx.fillStyle = "rgba(100, 116, 139, 0.4)";
         ctx.font = "400 11px Inter, system-ui, sans-serif";
-        ctx.fillText("typesprint.com", W / 2, 800);
+        ctx.fillText("typesprints.com", W / 2, 800);
     }, [name, targetWpm, wpm, accuracy, currentDate]);
 
     const handleGenerate = useCallback(() => {
@@ -209,7 +209,7 @@ export default function CertificateModal({
         if (!canvas) return;
 
         const link = document.createElement("a");
-        link.download = `TypeSprint_Certificate_${targetWpm}WPM_${name.replace(/\s+/g, "_")}.png`;
+        link.download = `TypeSprints_Certificate_${targetWpm}WPM_${name.replace(/\s+/g, "_")}.png`;
         link.href = canvas.toDataURL("image/png");
         link.click();
     }, [name, targetWpm]);
